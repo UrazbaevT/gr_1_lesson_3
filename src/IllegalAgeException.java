@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class IlleggalAgeException {
+public class IllegalAgeException extends RuntimeException {
+
+    public IllegalAgeException(String message) {
+        super(message);
+    }
 }

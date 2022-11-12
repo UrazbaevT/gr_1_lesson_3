@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class IllegalNameException {
+public class IllegalNameException extends Exception{
+    public IllegalNameException(String message) {
+        super(message);
+    }
 }
